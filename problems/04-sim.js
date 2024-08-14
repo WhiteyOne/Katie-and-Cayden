@@ -14,7 +14,13 @@ Create an object called a mySim. You can fill out the values as you want, but it
 */
 
 
-// Your object here
+const mySim = {
+    name: `Cayden`,
+    age: `28`,
+    height: `5' 8" `,
+    hairColor: `Dirty blond`,
+    occupation: 'Dispatcher'
+}
 
 
 

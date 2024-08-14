@@ -7,7 +7,14 @@ Try to solve this without using using Object.keys/Object.values/Object.entries
 
 
 */
-
+const valSum = obj =>{
+    let sum = 0
+    for(let key in obj){
+        sum += obj[key]
+        console.log(studentCount.key[obj[key]])
+    }
+    return sum
+}
 
 
 const studentCount = {

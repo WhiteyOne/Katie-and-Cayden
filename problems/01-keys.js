@@ -15,11 +15,6 @@ const obj = {
     students: 60
 }
 
-let getKeys = (obj) =>{
-    let keyList = []
-    for(let key in obj){
-        keyList.push(obj[key])
-    }
-}
+const getKeys = (obj) => Object.keys(obj)
 
 console.log(getKeys(obj)); // ["instructor", "cohort", "students"]

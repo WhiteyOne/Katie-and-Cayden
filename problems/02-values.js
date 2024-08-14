@@ -6,7 +6,13 @@ Optional Challenge - Can you solve this using a one liner?
 
 */
 
-
+const getValues = (obj) => {
+    let value = []
+    for(let key in obj){
+        value.push(obj[key])
+    }
+    return value
+}
 
 
 const obj = {
